@@ -14,7 +14,7 @@
 (def verify-token (env :verify-token))
 (def page-token (env :page-token))
 
-(def send-url "https://graph.facebook.com/v2.6/me/messages?access_token=")
+(def send-url "https://graph.facebook.com/v2.10/me/messages?access_token=")
 
 
 (defn read-msg
